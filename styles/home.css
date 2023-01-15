@@ -67,7 +67,7 @@ nav {
     height: 100vh;
     width: 400vw;
     display: flex;
-    transform: translateX(-300vw);
+    transform: translateX(0);
     animation: 4s;
 }
 
