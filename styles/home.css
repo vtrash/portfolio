@@ -294,6 +294,7 @@ form {
     font-size: 20px;
     border: none;
     background-color: #A0AECD;
+	cursor: pointer;
 }
 
 /* shape */
