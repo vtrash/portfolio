@@ -8,7 +8,6 @@ addEventListener("keydown", function(event){
                 setInterval(() => {
                     window.location.href = 'contents/home.html'
                 }, 2000)
-                checkbox.checked = false
             }
         }
         getVal()
