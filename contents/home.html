@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
+    <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <title>vtrash</title>
+</head>
+<body>
+    <input type="checkbox" name="" id="toggler">
+    <div class="container">
+        <nav>
+            <div class="nav-container">
+                <div class="logo" onclick="slide('home')">vtrash</div>
+                <ul>
+                    <li onclick="slide('home')">Home</li>
+                    <li onclick="slide('about')">About</li>
+                    <li onclick="slide('memories')">Memories</li>
+                    <li onclick="slide('contact')">Contact</li>
+                </ul>
+            </div>
+        </nav>
+
+        <input type="radio" name="toggler" id="home">
+        <input type="radio" name="toggler" id="about">
+        <input type="radio" name="toggler" id="memories">
+        <input type="radio" name="toggler" id="contact">
+        <div id="slide">
+            <section class="hero">
+                <div class="hero-image">
+                    <img src="../images/home.png" alt="">
+                </div>
+                <div class="hero-text">
+                    <div class="hero-wrapper">
+                        <h1 class="hero-h1">VTRASH</h1>
+                        <span class="hero-p">
+                            <h1>GREET</h1>
+                            <span class="triangle-down"></span>
+                            <span class="triangle-up"></span>
+                            <p>Front-End Developer with several months of experience. Inspired by <b>Sigurd Lerewentz</b>.</p>
+                        </span>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="about">
+                <div class="about-text">
+                    <div class="about-wrapper">
+                        <div class="about-text-h1">
+                            <h1>Satria Ananda Bintang</h1>
+                            <span class="rectangle"></span>
+                        </div>
+                        <div class="about-text-p">
+                            <div class="about-wrapper-p">
+                                <p>Hi, I'm Satria<p>
+                                <p>I'm a Front-End Developer from Indonesia. I'm a 10th graders in SMKN 1 Cianjur, Vocational High School in Cianjur, Indonesia.</p>
+                                <br>
+                                <p>I love exploring my skill in programming, learning from all the mistakes that I've made to achieve more and eventually getting better.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-img">
+                    <div class="about-wrapper-img">
+                        <img src="../images/about.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section class="memories">
+                <div class="memories-text">
+                    <div class="memories-wrapper" id="memories-text">
+                        <h3>Reminiscence</h3>
+                        <p id="p">Sometimes I wish, that I could still call y- UHUQ. Here are some
+                        pretty good memories that I want to share to you, good times that
+                        I've been through for the past few months.
+                        </p>
+                        <p id="answer">ikr</p>
+                        <br>
+                        <li id="interactive" onclick="changeText()"><b>weirdo.</b></li>
+                    </div>
+
+                    <div class="memories-images" id="after">
+                        <div class="memo-row">
+                            <div class="memo-col">
+                                <img src="../images/gay.jpeg" alt="">
+                                <p>yea.</p>
+                            </div>
+                            <div class="memo-col">
+                                <img src="../images/osu.jpeg" alt="">
+                                <p>"finallly I can stream 180BPM"</p>
+                            </div>
+                        </div>
+                        <div class="memo-row d">
+                            <div class="memo-col d">
+                                <img src="../images/smk.jpeg" alt="">
+                                <p>SMK Digital Bootcamp 2022</p>
+                            </div>
+                            <div class="memo-col d">
+
+                                <img src="../images/asd.jpeg" alt="">
+                                <p>Watcher Knight</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="contact">
+                <div class="contact-image">
+                    <img src="../images/contact.jpeg" alt="">
+                </div>
+                <div class="contact-text">
+                    <div class="contact-text-wrapper">
+                        <h1>Contact</h1>
+                        <span class="rectangle2"></span>
+                        <div class="contact-p-wrapper">
+                            <h3>Address</h3>
+                            <p>satria.ndoy1710@gmail.com</p>
+                            <h3>Whatsapp</h3>
+                            <p>+62 8XX-XXXX-XXXX</p>
+                            <h3>Email</h3>
+                            <p>satria.ndoy1710@gmail.com</p>
+                            <form action="">
+                                <p>Review for my website:</p>
+                                <textarea name="" id="" cols="35" rows="10">Responsive kapan-kapan</textarea><br>
+                                <input type="submit" value="submit">
+                            </form>
+                            </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="../scripts/home.js"></script>
+</body>
+</html>

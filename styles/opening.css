@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #A0AECD;
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    transition: all 1.5s;
+}
+
+h1 {
+    font-family: Raleway;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+pre {
+    font-family: Consolas;
+    font-size: 1.2em;
+}
+
+#toggler {
+    visibility: hidden;
+}
+
+#toggler:checked ~ .container {
+    opacity: 0;
+}
