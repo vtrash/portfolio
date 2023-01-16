@@ -370,7 +370,7 @@ form {
 }
 
 /* Blom beres, kapan" */
-/* @media screen and (max-width: 764px) {
+@media screen and (max-width: 764px) {
     .hero-p p {
         font-size: 20px;
     }
@@ -450,4 +450,4 @@ form {
         height: 580px;
         width: 200px;
     }
-} */
+}
